@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['@mui/lab/Rating']
+      external: ['@mui/lab/Rating','@popperjs/core']
     }
   }
 })
