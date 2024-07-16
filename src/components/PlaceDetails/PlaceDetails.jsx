@@ -10,7 +10,9 @@ import {
 } from "@mui/material";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import PhoneIcon from "@mui/icons-material/Phone";
-import Rating from "@mui/lab/Rating";
+// import Rating from "@mui/lab/Rating";
+import {Rating}  from "@mui/material";
+
 import useStyles from "./styles";
 import PropTypes from "prop-types";
 const PlaceDetails = ({ place , selected , refProp }) => {

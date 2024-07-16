@@ -17,6 +17,7 @@
     "@react-google-maps/api": "^2.19.3",
     "axios": "^1.7.2",
     "google-map-react": "^2.2.1",
+    "install-peerdeps": "^3.0.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
