@@ -7,10 +7,10 @@ import {
   CardActions,
   Chip,
   Button,
-} from "@material-ui/core";
-import LocationOnIcon from "@material-ui/icons/LocationOn";
-import PhoneIcon from "@material-ui/icons/Phone";
-import Rating from "@material-ui/lab/Rating";
+} from "@mui/material";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import PhoneIcon from "@mui/icons-material/Phone";
+import Rating from "@mui/lab/Rating";
 import useStyles from "./styles";
 import PropTypes from "prop-types";
 const PlaceDetails = ({ place , selected , refProp }) => {

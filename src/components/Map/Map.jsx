@@ -1,7 +1,7 @@
 import GoogleMapReact from "google-map-react";
-import { Paper, Typography, useMediaQuery } from "@material-ui/core";
-import { LocationOnOutlinedIcon } from "@material-ui/icons/LocationOnOutlined";
-import Rating  from "@material-ui/lab/Rating";
+import { Paper, Typography, useMediaQuery } from "@mui/material";
+import { LocationOnOutlinedIcon } from "@mui/icons-material/LocationOnOutlined";
+import Rating  from "@mui/lab/Rating";
 import useStyles from "./styles";
 import PropTypes from "prop-types";
 const Map = ({ setCoordinates, setBounds, coordinates, places, setChildClicked }) => {
